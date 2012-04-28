@@ -1,5 +1,5 @@
 {
-    "name": "Node Express"
+    "name": "node-express"
   , "version": "0.0.1"
   , "private": true
   , "dependencies": {
