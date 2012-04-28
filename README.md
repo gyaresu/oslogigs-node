@@ -1,5 +1,5 @@
 Learning Node Express.
 
-I think I'll end up re-writing http://oslogigs.com as a Heroku hosted node.js app with the http://parse.com REST API. This is probably that effort.
+I think I'll end up re-writing [Oslo Gigs](http://oslogigs.com) as a Heroku hosted node.js app with the [Parse REST API](http://parse.com). This is probably that effort.
 
-(http://expressjs.com)[http://expressjs.com]
+[Express JS](http://expressjs.com)
