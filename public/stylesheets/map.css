@@ -1,7 +1,11 @@
-.page-map, #map, #map-canvas { width: 100%; height: 100%; padding: 0; }
+.page-map, #map, #map-canvas {
+width: 100%;
+height: 100%;
+padding: 0;
+}
 
 #map-canvas img {
-    max-width: none;
+max-width: none;
 }
 
 .infobox {
@@ -9,30 +13,34 @@ background: -moz-linear-gradient(center top , #707070 0%, #5E5E5E 51%, #393939 5
 }
 
 .infoborder {
-    position: relative; width: 0pt; padding-right: 5px; padding-left: 5px; top: 1px;
+position: relative;
+width: 0pt;
+padding-right: 5px;
+padding-left: 5px;
+top: 1px;
 }
 
 .prettycorners {
-    overflow: auto;
-    cursor: default;
-    clear: both;
-    position: relative;
-    padding: 0pt;
-    background-color: rgb(57, 57, 57);
-    border-radius: 4px 4px 4px 4px;
-    border-width: 1px;
-    border-color: rgb(44, 44, 44);
-    border-style: solid;
+overflow: auto;
+cursor: default;
+clear: both;
+position: relative;
+padding: 0pt;
+background-color: rgb(57, 57, 57);
+border-radius: 4px 4px 4px 4px;
+border-width: 1px;
+border-color: rgb(44, 44, 44);
+border-style: solid;
 }
 
 .label {
-    background: url("/static/images/arrow.png") no-repeat scroll 95% 50% transparent;
-    color: #FFFFFF;
-    font-family: Helvetica Neue, Helvetica, arial;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 25px;
-    padding: 4px 45px 4px 15px;
-    text-shadow: 0 -1px 0 #000000;
+background: url("/static/images/arrow.png") no-repeat scroll 95% 50% transparent;
+color: #FFFFFF;
+font-family: Helvetica Neue, Helvetica, arial;
+font-size: 18px;
+font-weight: bold;
+line-height: 25px;
+padding: 4px 45px 4px 15px;
+text-shadow: 0 -1px 0 #000000;
 }
 
