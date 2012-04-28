@@ -1,9 +1,13 @@
 {
-    "name": "node-express"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "express": "2.5.8"
-    , "jade": ">= 0.0.1"
+   "name": "node-express",
+   "version": "0.0.1",
+   "private": true,
+   "engines": {
+       "node": "0.6.15",
+       "npm": "1.1.18"
+   }
+   "dependencies": {
+    "express": "2.5.8",
+    "jade": ">= 0.0.1"
   }
 }
