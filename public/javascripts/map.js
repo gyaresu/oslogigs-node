@@ -53,8 +53,8 @@ $.parse.init({
             var marker = new google.maps.Marker({
                 animation: (pub.pub_bounce === true) ? google.maps.Animation.BOUNCE : null,
                 map: map,
-                icon: "img/" + pub.beer_price + ".png",
-                shadow: 'img/shadow.png',
+                icon: "images/" + pub.beer_price + ".png",
+                shadow: 'images/shadow.png',
                 position: posi,
                 title: pub.pub_name
             });

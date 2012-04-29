@@ -7,6 +7,9 @@ exports.index = function(req, res){
 };
 
 exports.mobile = function(req, res){
-  res.render('mobile', { title: 'Øl map'});
+  res.render('mobile', { title: 'Oslo Gigs - Øl map'});
 };
 
+exports.find = function(req, res){
+    res.render('find', { title: 'Oslo Gigs - Find Venues'});
+};

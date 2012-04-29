@@ -31,6 +31,7 @@ app.configure('production', function(){
 
 app.get('/', routes.index);
 app.get('/mobile', routes.mobile);
+app.get('/find', routes.find);
 
 var port = process.env.PORT || 3000;
 

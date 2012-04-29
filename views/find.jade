@@ -1,0 +1,14 @@
+div#venues(data-role='page', data-fullscreen='true', data-theme='a')
+    div(data-role='content')
+        ul#listview(data-role='listview', data-filter='true', data-inset='true', data-filter-placeholder='Start typing here to search...')
+    div(data-role="footer", data-position="fixed", data-id="tabs")
+            div(data-role="navbar")
+                ul
+                    li
+                        a(href="/") Home
+                    li
+                        a(href="mobile") Map
+                    li
+                        a.ui-btn-active.ui-state-persist(href="find") Find
+
+
