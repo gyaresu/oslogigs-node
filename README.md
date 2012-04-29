@@ -10,3 +10,4 @@ Also check out this very useful page of [Node related links](http://filer.progst
 
 All of the pretty front end is of course from [jQuery Mobile](http://jquerymobile.com/).
 
+The time module is [Moment.js](http://momentjs.com/).
