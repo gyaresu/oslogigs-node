@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var express = require('express') , routes = require('./routes/');
+var express = require('express') , routes = require('./routes');
 
 var app = module.exports = express.createServer();
 
@@ -30,7 +30,7 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', routes.index);
-app.get('mobile', routes.mobile);
+app.get('/mobile', routes.mobile);
 
 var port = process.env.PORT || 3000;
 
