@@ -7,9 +7,6 @@ var express = require('express') , routes = require('./routes');
 
 var app = module.exports = express.createServer();
 
-var moment = require('moment');
-moment.lang('nb');
-moment().format('LLLL');
 // Configuration
 
 app.configure(function(){
