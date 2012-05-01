@@ -9,16 +9,15 @@ $.parse.init({
         var output = '';
         var beer;
         $.each(data.results, function(key, pub){
-            var pubaddress = encodeURI(pub.pub_address);
-            var pubname = encodeURI(pub.pub_name);
+            var pubaddress = pub.pub_address;
+            var pubname = pub.pub_name;
 
             if (pub.beer_price === 99) {
                 beer = "?";
             } else {
                 beer = pub.beer_price;
             }
-                output += '<li>' + '<a href="http://maps.google.com/?saddr=Current%20Location&daddr='+ 
-                pubaddress + '+(' + pubname + ')&dirflg=w&t=h">' + pub.pub_name + ' ' + beer + ' kr.</a></li>';
+                output += '<li>' + pubaddress + ' ' + pubname + ' ' + pub.pub_name + ' ' + beer + ' kr.</li>';
         });
         $('#listview').append(output).listview('refresh');
         $('#listview').addClass('loaded');
