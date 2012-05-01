@@ -9,15 +9,12 @@ $.parse.init({
         var output = '';
         var beer;
         $.each(data.results, function(key, pub){
-            var pubaddress = pub.pub_address;
-            var pubname = pub.pub_name;
-
             if (pub.beer_price === 99) {
                 beer = "?";
             } else {
                 beer = pub.beer_price;
             }
-                output += '<li>' + pubaddress + ' ' + pubname + ' ' + pub.pub_name + ' ' + beer + ' kr.</li>';
+                output += '<li>' + pub.pub_name + ': øl pris ' + beer + ' kr.</li>';
         });
         $('#listview').append(output).listview('refresh');
         $('#listview').addClass('loaded');
