@@ -3,26 +3,6 @@
 
 $('.page-map').live("pageshow", function() {
 
-/*
-var me = function(lat, lng) {
-    var posi = new google.maps.LatLng(lat, lng);
-    var marker = new google.maps.Marker({
-            map: map,
-            position: posi,
-            title: "You are here!"
-        });
-        bubble.open(map, marker);
-};
-
-if(navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-        me(position.coords.latitude, position.coords.latitude);
-        }, function() {
-        });
-} else {
-}
-*/
-
 $.parse.init({
     app_id: "9vbpyfY5iHZqFmq4Fjh2mbUeCAs9vXLjfnIgmUm5",
     rest_key: "ptYuPEQ4l6mugCYtu2uRHi5X4S0taWNc4Tdd61rC"
