@@ -64,17 +64,9 @@ $.parse.init({
 
 
             bubble.setContent(content_string);
-            //console.log(bubble.getContent());
             bubble.open(map, this);
             twttr.widgets.load();
             });
-/*
-            google.maps.event.addListener(bubble, 'domready', function() {
-            //$('.twitter-share-button').on('domready', function(event) {
-               console.log("Iteration:"+ i + " Twitter javascript loaded " + pub.pub_name);
-               !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-            });
-            */
         });
     });
 });
